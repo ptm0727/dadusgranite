@@ -17,8 +17,6 @@ app.use(flash());
 const transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
-    user: 'prathamjpm07@gmail.com',
-    pass: 'Pr@th@m27',
   },
 });
 
